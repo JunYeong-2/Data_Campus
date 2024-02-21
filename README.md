@@ -8,18 +8,23 @@ __1. data folder__
 
 __2. code folder__
 
- 1. Select columns 폴더 : 최종 변수 선정
+ i. Select columns 폴더 : 최종 변수 선정
      - 상관계수 확인
      - 다중공선성 검증 (VIF)
      - XGBoost 주요 변수 추출
      - 다중선형회귀분석을 통한 p-value 확인
 
- 2. EDA 폴더 : 데이터 시각화
+ ii. EDA 폴더 : 데이터 시각화
      - EDA1 
         - 호선별, 지역별, 역별 무임승하차 수, 비율 시각화
      - EDA2
         - 범주형 변수 인코딩
         - column별 hist, bar 등 그래프 시각화
+
+iii. Cluster 폴더 : "i. Select column"에서 선정한 최종 변수로 클러스터링 (군집화)
+
+
+
 
 - 데이터 시각화 : EDA를 위해 시각화한 파일
   - 2조 Data.csv : 아래 파일에서 데이터를 불러오기위한 데이터셋
