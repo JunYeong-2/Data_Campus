@@ -8,7 +8,7 @@ __1. data folder__
 
 __2. code folder__
  i. Select columns 폴더 : 최종 변수 선정
-     - 상관계수 확인
+ - 상관계수 확인
      - 다중공선성 검증 (VIF)
      - XGBoost 주요 변수 추출
      - 다중선형회귀분석을 통한 p-value 확인
